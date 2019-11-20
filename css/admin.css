@@ -1,7 +1,7 @@
 html, body
 {
     font-family: "open sans", "Helvettica Neue", Arial, Helvetica, sans-serif;
-    background: #f3f3f4;
+    background: rgba(212, 195, 230, 0.253);
     color: #676a6c;
     height: 100%;
 }

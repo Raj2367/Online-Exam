@@ -71,10 +71,10 @@
                 </header>
                 <!-- header close -->
                 <br>
-                <h1 class="text-center">Student List</h1>
+                <h1 class="text-center">Instruction List</h1>
                 <div class="clearfix" style="margin-right: 20px;">
                     <button type="button" class="btn btn-success btn-lg float-right" data-toggle="modal"
-                        data-target="#AddModal">Add Student</button>
+                        data-target="#AddModal">Add Instruction</button>
                 </div>
 
                 <div class="student-list text-center">
@@ -82,8 +82,7 @@
                         <thead>
                             <tr>
                                 <th scope="col" class="bg-info">SL No.</th>
-                                <th scope="col" class="bg-info">User ID</th>
-                                <th scope="col" class="bg-info">Name</th>
+                                <th scope="col" class="bg-info">Instruction</th>
                                 <th scope="col" class="bg-info">Update</th>
                                 <th scope="col" class="bg-info">Delete</th>
                             </tr>
@@ -91,7 +90,6 @@
                         <tbody>
                             <tr>
                                 <th scope="row">1</th>
-                                <td>1701106240</td>
                                 <td>vishal</td>
                                 <td><button class="btn btn-warning" data-toggle="modal"
                                         data-target="#UpdateModal">Update</button></td>
@@ -118,13 +116,13 @@
         </div>
     </div>
 
-    <!-- Add student Model -->
+    <!-- Add Instruction Model -->
     <div class="modal fade" id="AddModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Add New Instruction:</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -132,30 +130,26 @@
                 <div class="modal-body">
                     <form>
                         <div class="form-group">
-                            <label for="recipient-name" class="col-form-label">Recipient:</label>
-                            <input type="text" class="form-control" id="recipient-name">
-                        </div>
-                        <div class="form-group">
-                            <label for="message-text" class="col-form-label">Message:</label>
+                            <label for="message-text" class="col-form-label">Instruction:</label>
                             <textarea class="form-control" id="message-text"></textarea>
                         </div>
                     </form>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Send message</button>
+                    <button type="button" class="btn btn-primary">Add Instruction</button>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Update student Model -->
+    <!-- Update Instruction Model -->
     <div class="modal fade" id="UpdateModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Update Instruction</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -163,18 +157,14 @@
                 <div class="modal-body">
                     <form>
                         <div class="form-group">
-                            <label for="recipient-name" class="col-form-label">Recipient:</label>
-                            <input type="text" class="form-control" id="recipient-name">
-                        </div>
-                        <div class="form-group">
-                            <label for="message-text" class="col-form-label">Message:</label>
+                            <label for="message-text" class="col-form-label">Update:</label>
                             <textarea class="form-control" id="message-text"></textarea>
                         </div>
                     </form>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Send message</button>
+                    <button type="button" class="btn btn-primary">Update Instruction</button>
                 </div>
             </div>
         </div>
