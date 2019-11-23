@@ -1,3 +1,10 @@
+html, body
+{
+    font-family: "open sans", "Helvettica Neue", Arial, Helvetica, sans-serif;
+    background: #F9F9F9;
+    color: #676a6c;
+    height: 100%;
+}
 .button {
   display: inline-block;
   border-radius: 4px;
@@ -37,4 +44,11 @@
   font-size: 28px;
   padding: 20px;
   margin: 5px;
+}
+
+.time
+{
+  text-align: center;
+  padding: 8px;
+  margin: 8px;
 }
