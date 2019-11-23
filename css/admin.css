@@ -1,20 +1,19 @@
 html, body
 {
     font-family: "open sans", "Helvettica Neue", Arial, Helvetica, sans-serif;
-    background: rgba(212, 195, 230, 0.253);
+    background: #F9F9F9;
     color: #676a6c;
     height: 100%;
 }
 
 .box
 {
-    /* border: 1px red dotted; */
     padding: 0px;
 }
 
 #side-menu
 {
-    background: #e8e9eb;
+    background: #FFFFFF;
     padding: 0px;
 }
 
@@ -38,9 +37,9 @@ html, body
 {
     padding: 12px 20px;
     text-decoration: none;
-    color: #9fb1c2;
+    color: #8a7474;
     font-weight: bold;
-    font-size: 13px;
+    font-size: 18px;
     display: block;
 }
 
@@ -49,32 +48,27 @@ html, body
     background-color: #1c4b6e;
     color: #fff;
     display: block;
-    border-radius: 100px;
 }
 
 #side-menu .active a
 {
-    color: #fff;
-    background: #135281;
-    border-radius: 100px;
+    color: black;
+    background: #d9dcdd;
 }
 
 .display-table
 {
     display: table;
-    /* padding: 0px; */
     height: 100%;
 }
 
 .display-table-row
 {
-    /* display: table-row; */
     height: 100%;
 }
 
 .display-table-cell
 {
-    /* display: table-cell; */
     float: none;
     height: 100%;
 }
