@@ -14,7 +14,8 @@ html, body
 .button {
   display: inline-block;
   border-radius: 4px;
-  background-color: #4699dd;
+  background-color: rgb(28, 48, 136);
+  background-image: linear-gradient(to right, rgb(28, 48, 136) , rgb(29, 184, 196));
   border: none;
   color: #FFFFFF;
   text-align: center;
@@ -53,7 +54,8 @@ html, body
 .heading
 {
   border-radius: 4px;
-  background-color: #4699dd;
+  background-color: rgb(28, 48, 136);
+  background-image: linear-gradient(to bottom, rgb(28, 48, 136) , rgb(29, 184, 196));
   color: #FFFFFF;
   text-align: center;
   font-size: 28px;
